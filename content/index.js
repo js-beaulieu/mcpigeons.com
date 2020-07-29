@@ -7,7 +7,7 @@ export const header = {
   title: "MC Pigeons",
   description: "A Minecraft 1.16.1 Vanilla server. Join us today!",
   cta: {
-    discord: { label: "Discord", href: "//discord.mcpigeons.com" },
+    discord: { label: "Discord", href: "http://discord.mcpigeons.com/" },
     dynmap: { label: "Dynmap", href: "http://pigeons.mcsrv.pro:8123/" },
   },
 };
