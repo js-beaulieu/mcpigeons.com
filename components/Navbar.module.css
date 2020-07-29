@@ -1,0 +1,32 @@
+.navbar > .container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width: 750px) {
+    .navbar > .container {
+        width: 100%;
+    }
+}
+
+.navbarList {
+    list-style: none;
+    font-family: 'VT323', monospace !important;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.navbarListItem {
+    display: inline-block;
+    height: 100%;
+    margin: 0 30px;
+}
+
+.navbarLink {
+    font-variant: small-caps;
+    text-decoration: none;
+    color: black;
+}
