@@ -1,0 +1,26 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "shell",
+      "command": ["yarn", "dev"],
+      "label": "Launch development server",
+      "detail": "next dev",
+      "problemMatcher": []
+    },
+    {
+      "type": "shell",
+      "command": ["yarn", "build"],
+      "label": "Build static site",
+      "detail": "next build && next export",
+      "problemMatcher": []
+    },
+    {
+      "type": "shell",
+      "command": ["yarn", "install"],
+      "label": "Install dependencies",
+      "detail": "yarn install",
+      "problemMatcher": []
+    }
+  ]
+}
